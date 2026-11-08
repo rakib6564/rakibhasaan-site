@@ -554,7 +554,7 @@ body{margin:0;background:#0B0B0C}
 </div>
 </sc-if>
 
-<section id="bd-hero" data-theme="ink" style="position: relative; min-height: 780px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end">
+<section id="bd-hero" data-theme="ink" style="position: relative; background: radial-gradient(circle at 70% 35%, #3a1a0c, #0B0B0C 65%); min-height: 780px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end">
 <canvas id="bd-gl" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; display: block; background: radial-gradient(circle at 70% 35%, #3a1a0c, #0B0B0C 65%)"></canvas>
 <div class="bd-pad" style="position: relative; z-index: 2; max-width: 1440px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 120px 28px 52px; display: flex; flex-direction: column; gap: 22px; color: #EDE8DF">
 <div class="bd-mono" style="display: flex; justify-content: space-between; gap: 8px 20px; flex-wrap: wrap; color: #BDB7AD">
@@ -1012,6 +1012,7 @@ class Component extends DCLogic {
 
 
 
+
     // ---------- Worldwide live map: arcs draw in, auto tour, hover/focus tooltips, count-ups ----------
     all('.bd-world').forEach(function (sec) {
       var map = sec.querySelector('.bd-map');
@@ -1301,7 +1302,7 @@ class Component extends DCLogic {
     var self = this;
     var cv = document.getElementById('bd-gl');
     if (!cv) return;
-    var gl = cv.getContext('webgl', { antialias: false });
+    var gl = cv.getContext('webgl', { antialias: false, preserveDrawingBuffer: true });
     if (!gl) return;
     var vs = 'attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
     var fs = [
@@ -1382,6 +1383,7 @@ class Component extends DCLogic {
     this._alive = false;
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._raf2) cancelAnimationFrame(this._raf2);
+    if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);

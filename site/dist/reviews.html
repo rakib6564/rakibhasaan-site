@@ -752,6 +752,9 @@ textarea.bd-in{height:auto;min-height:56px;padding:10px 0;resize:vertical;line-h
 @media (max-width: 900px){.bd-hero-split{grid-template-columns:1fr}.bd-hero-split .bd-hero-ph{max-width:420px}}
 .bd-hero-l .bd-hero-intro{flex:none}
 
+/* hero never depends on the WebGL canvas for its background */
+.bd-hero{background:radial-gradient(circle at 70% 35%,#3a1a0c,#0B0B0C 65%)}
+
 /* ---------- products showcase ---------- */
 @keyframes bd-pr-lit{0%,100%{background:transparent;color:var(--muted);border-color:var(--line)}8%,22%{background:#FF5A1F;color:#0B0B0C;border-color:#FF5A1F}}
 @keyframes bd-pr-type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
@@ -2245,7 +2248,7 @@ class Component extends DCLogic {
     var self = this;
     var cv = document.getElementById('bd-gl');
     if (!cv) return;
-    var gl = cv.getContext('webgl', { antialias: false });
+    var gl = cv.getContext('webgl', { antialias: false, preserveDrawingBuffer: true });
     if (!gl) return;
     var vs = 'attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
     var fs = [

@@ -573,3 +573,6 @@ textarea.bd-in{height:auto;min-height:56px;padding:10px 0;resize:vertical;line-h
 .bd-hero-split .bd-ph{aspect-ratio:1/1}
 @media (max-width: 900px){.bd-hero-split{grid-template-columns:1fr}.bd-hero-split .bd-hero-ph{max-width:420px}}
 .bd-hero-l .bd-hero-intro{flex:none}
+
+/* hero never depends on the WebGL canvas for its background */
+.bd-hero{background:radial-gradient(circle at 70% 35%,#3a1a0c,#0B0B0C 65%)}
