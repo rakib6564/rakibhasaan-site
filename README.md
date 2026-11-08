@@ -19,4 +19,12 @@ cd ../export && python3 export.py ../dist
 
 Upload `site/dist/` to the web root (staging lives at `public_html/new/`).
 
+### v2 (GSAP motion)
+
+```bash
+cd site/export && python3 export.py ../dist-v2 --v2
+```
+
+Same pages, with GSAP 3.12.5 + ScrollTrigger and Lenis on one ticker (`export/v2.js`): letter-split hero headlines, masked heading reveals, batched block reveals, scrubbed word highlights, theme colour tweens at section boundaries, the Home marquee with velocity lean and 3D tilt, and the Home horizontal work scroll with image parallax. Staged at `public_html/v2/`.
+
 Placeholder content (sample quotes, results, metrics and prices) is generated filler and must be replaced before launch.

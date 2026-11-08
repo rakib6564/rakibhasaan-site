@@ -5,7 +5,9 @@ import os, re, sys, json, shutil, html, hashlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(HERE)
 PROJ = os.path.join(SITE, 'project')
-OUT = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.join(SITE, 'dist')
+ARGS = [a for a in sys.argv[1:] if not a.startswith('--')]
+V2 = '--v2' in sys.argv
+OUT = os.path.abspath(ARGS[0]) if ARGS else os.path.join(SITE, 'dist')
 IMAGES = os.path.join(HERE, 'images')  # <blob id>.<ext>
 
 PAGES = {
@@ -65,20 +67,52 @@ def fix_refs(s, used):
   s = s.replace('href="index.html#', 'href="./#').replace("href='index.html'", "href='./'").replace('href="index.html"', 'href="./"')
   return s
 
+# v2: GSAP takes over reveals, theme colours, the Home marquee and the Home horizontal scroll.
+V2_PATCHES = [
+  ("if (pt !== pageTheme && themes[pt] && root)", "if (!window.__V2 && pt !== pageTheme && themes[pt] && root)"),
+  ("var ups = all('[data-up]');", "var ups = window.__V2 ? [] : all('[data-up]');"),
+  ("var rise = all(", "var rise = window.__V2 ? [] : all("),
+  ("var clips = all('[data-clip]');", "var clips = window.__V2 ? [] : all('[data-clip]');"),
+  ("var leads = all('.bd-stmt-lead');", "var leads = window.__V2 ? [] : all('.bd-stmt-lead');"),
+  ("applyTheme(pick);", "if (!window.__V2) applyTheme(pick);"),
+  ("var words = all('[data-w]'), man", "var words = window.__V2 ? [] : all('[data-w]'), man"),
+  ("if (m1 && m2 && !reduced) {", "if (m1 && m2 && !reduced && !window.__V2) {"),
+  ("if (horizontal) {", "if (horizontal && !window.__V2) {"),
+]
+V2_CSS = '<style>.v2-w{display:inline-block;white-space:nowrap}.v2-c{display:inline-block;will-change:transform}.v2-m{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em;margin-bottom:-.1em}.v2-mi{display:inline-block}</style>'
+GSAP = '<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>\n<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>\n'
+
+def to_v2(t, name):
+  hits = 0
+  for a, b in V2_PATCHES:
+    n = t.count(a); hits += n
+    t = t.replace(a, b)
+  if hits < 4: raise SystemExit('v2 patches did not apply to ' + name)
+  t = re.sub(r'<script>\(function\(\)\{if\(!window.Lenis.*?</script>\n', '', t, flags=re.S)
+  t = t.replace('<script src="assets/dc-static.js"></script>', '<script>window.__V2=1</script>\n' + GSAP + '<script src="assets/lenis.min.js"></script>\n<script src="assets/dc-static.js"></script>\n<script src="assets/v2.js"></script>', 1)
+  t = t.replace('<script src="assets/lenis.min.js"></script>\n</body>', '</body>')
+  t = t.replace('</head>', V2_CSS + '\n</head>', 1)
+  return t
+
 def main():
   if os.path.isdir(OUT): shutil.rmtree(OUT)
   os.makedirs(os.path.join(OUT, 'assets', 'img'))
   used = set()
   for a, b in PAGES.items():
     src = open(os.path.join(PROJ, a), encoding='utf-8').read()
-    open(os.path.join(OUT, b), 'w', encoding='utf-8').write(fix_refs(convert(src), used))
-  for f in used: shutil.copy(os.path.join(IMAGES, f), os.path.join(OUT, 'assets', 'img', f))
+    t = fix_refs(convert(src), used)
+    if V2: t = to_v2(t, b)
+    open(os.path.join(OUT, b), 'w', encoding='utf-8').write(t)
+  for f in used:
+    shutil.copy(os.path.join(IMAGES, f), os.path.join(OUT, 'assets', 'img', f))
+    os.chmod(os.path.join(OUT, 'assets', 'img', f), 0o644)  # web server must be able to read every image
   shutil.copy(os.path.join(HERE, 'dc-static.js'), os.path.join(OUT, 'assets', 'dc-static.js'))
   shutil.copy(os.path.join(HERE, 'lenis.min.js'), os.path.join(OUT, 'assets', 'lenis.min.js'))
-  ver = hashlib.sha1(open(os.path.join(HERE, 'dc-static.js'), 'rb').read() + open(os.path.join(HERE, 'lenis.min.js'), 'rb').read()).hexdigest()[:10]
+  if V2: shutil.copy(os.path.join(HERE, 'v2.js'), os.path.join(OUT, 'assets', 'v2.js'))
+  ver = hashlib.sha1(open(os.path.join(HERE, 'dc-static.js'), 'rb').read() + open(os.path.join(HERE, 'lenis.min.js'), 'rb').read() + (open(os.path.join(HERE, 'v2.js'), 'rb').read() if V2 else b'')).hexdigest()[:10]
   for b in PAGES.values():
     fp = os.path.join(OUT, b); t = open(fp, encoding='utf-8').read()
-    t = t.replace('src="assets/dc-static.js"', 'src="assets/dc-static.js?v=' + ver + '"').replace('src="assets/lenis.min.js"', 'src="assets/lenis.min.js?v=' + ver + '"')
+    t = t.replace('src="assets/dc-static.js"', 'src="assets/dc-static.js?v=' + ver + '"').replace('src="assets/lenis.min.js"', 'src="assets/lenis.min.js?v=' + ver + '"').replace('src="assets/v2.js"', 'src="assets/v2.js?v=' + ver + '"')
     open(fp, 'w', encoding='utf-8').write(t)
   open(os.path.join(OUT, '.htaccess'), 'w').write('<FilesMatch "\\.(html|js)$">\nHeader set Cache-Control "no-cache, must-revalidate"\n</FilesMatch>\n' + 'DirectoryIndex index.html\nOptions -Indexes\nHeader set X-Robots-Tag "noindex, nofollow"\n<FilesMatch "\\.(jpg|jpeg|png|webp)$">\nHeader set Cache-Control "public, max-age=2592000"\n</FilesMatch>\n')
   print('exported %d pages, %d images -> %s' % (len(PAGES), len(used), OUT))
