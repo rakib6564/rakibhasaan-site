@@ -729,9 +729,9 @@ def build_work(cases):
   filters = ['All'] + list(IND_COLOR.keys())
   body = '''<section id="bd-grid" data-theme="bone" class="bd-sec" style="padding-top:90px">
 <div class="bd-wrap">
-<div class="bd-filters" role="toolbar" aria-label="Filter by industry">
-<sc-for list="{{filters}}" as="f" hint-placeholder-count="7"><button type="button" class="bd-filter" aria-pressed="{{f.on}}" onClick="{{f.pick}}"><span class="bd-fdot" style="{{f.dot}}"></span>{{f.label}}<span class="bd-mono">{{f.count}}</span></button></sc-for>
-</div>
+<div class="bd-fx" role="toolbar" aria-label="Filter by industry"><span class="bd-mono bd-fx-k">Filter</span>
+<div class="bd-fx-list"><sc-for list="{{filters}}" as="f" hint-placeholder-count="7"><button type="button" class="bd-fx-b" aria-pressed="{{f.on}}" onClick="{{f.pick}}">{{f.label}}<span class="bd-mono">{{f.count}}</span></button></sc-for></div>
+<span class="bd-mono bd-fx-n">{{shownCount}} projects</span></div>
 <div class="bd-pgrid">
 <sc-for list="{{shown}}" as="c" hint-placeholder-count="9"><a class="bd-pcard bd-pcard-in" href="{{c.href}}" onClick="{{c.pick}}" style="{{c.delay}}"><div class="bd-pcard-img"><img src="{{c.img}}" alt="{{c.alt}}" loading="lazy"><span class="bd-mono bd-tag" style="{{c.tag}}">{{c.ind}}</span></div>
 <div class="bd-pcard-t"><span>{{c.name}}</span><span class="bd-mono">{{c.meta}}</span></div><p>{{c.summary}}</p></a></sc-for>
@@ -747,7 +747,7 @@ def build_work(cases):
     var DATA = %s, FL = %s, COL = %s;
     var flt = S.filter || 'All';
     var filters = FL.map(function (f) {
-      return { label: f === 'All' ? 'All work' : f, on: f === flt ? 'true' : 'false', count: f === 'All' ? DATA.length : DATA.filter(function (d) { return d.ind === f; }).length,
+      return { label: f === 'All' ? 'All' : ({ 'Professional services': 'Professional' }[f] || f.split(' &')[0]), on: f === flt ? 'true' : 'false', count: f === 'All' ? DATA.length : DATA.filter(function (d) { return d.ind === f; }).length,
         dot: 'background:' + (COL[f] || 'currentColor'), pick: function () { self.setState({ filter: f }); } };
     });
     var shown = DATA.filter(function (d) { return flt === 'All' || d.ind === flt; }).map(function (d, i) {
@@ -755,7 +755,7 @@ def build_work(cases):
         tag: 'background:' + d.color, delay: 'animation-delay:' + (Math.min(i, 8) * 0.05).toFixed(2) + 's',
         pick: function () { try { sessionStorage.setItem('bd-proj', d.slug); } catch (e) {} } };
     });
-    X.filters = filters; X.shown = shown;
+    X.filters = filters; X.shown = shown; X.shownCount = shown.length;
 ''' % (json.dumps(data, ensure_ascii=False), json.dumps(filters), json.dumps(IND_COLOR))
   return page('Work.dc.html', plain(spec['SEO title']), plain(spec['Meta description']),
               hero(crumb, clean(spec['H1']), render_blocks(intro), '<div class="bd-hero-stats"><div><b>250+</b><span class="bd-mono">Websites shipped</span></div><div><b>25</b><span class="bd-mono">Case studies</span></div><div><b>14</b><span class="bd-mono">Countries</span></div></div>') + '\n' + body,
