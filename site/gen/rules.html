@@ -1,0 +1,84 @@
+<section id="bd-process" data-theme="bone" class="bd-pad" style="max-width: 1240px; margin: 0 auto; padding: 130px 28px 110px; box-sizing: border-box">
+<div class="bd-rules-head">
+<div class="bd-mono" style="color: var(--muted)">04 — Three rules, every project</div>
+<p class="bd-rules-lede">Three habits that protect your business while your website changes.</p>
+</div>
+<div id="bd-rules" class="bd-rules" style="{{stageStyle}}">
+<div class="bd-rules-list" role="tablist" aria-label="Three rules">
+<sc-for list="{{rulesList}}" as="r" hint-placeholder-count="3">
+<button type="button" role="tab" class="bd-rl" aria-selected="{{r.sel}}" onClick="{{r.pick}}" style="{{r.style}}">
+<span class="bd-mono bd-rl-n">{{r.n}}</span>
+<span class="bd-rl-t">{{r.title}}</span>
+<span class="bd-mono bd-rl-when">{{r.when}}</span>
+<span class="bd-rl-bar" aria-hidden="true"><i></i></span>
+</button>
+</sc-for>
+</div>
+<div class="bd-stage" role="tabpanel">
+
+<sc-if value="{{rule0}}" hint-placeholder-val="{{true}}">
+<div class="bd-stage-in">
+<div class="bd-stage-top bd-mono"><span>Rule 01</span><span>Before any quote</span></div>
+<div class="bd-vis">
+<div class="bd-win">
+<div class="bd-win-bar"><i></i><i></i><i></i><span class="bd-mono">yoursite.com · audit</span></div>
+<div class="bd-scan" aria-hidden="true"></div>
+<ul class="bd-alist">
+<li style="--d:.15s"><span>Google indexing</span><b class="bd-ok">OK</b></li>
+<li style="--d:.4s"><span>Page titles</span><b class="bd-warn">Fix</b></li>
+<li style="--d:.65s"><span>Mobile speed</span><b class="bd-warn">Fix</b></li>
+<li style="--d:.9s"><span>Broken links</span><b class="bd-warn">Fix</b></li>
+<li style="--d:1.15s"><span>Business details</span><b class="bd-ok">OK</b></li>
+</ul>
+<div class="bd-asum bd-mono" style="--d:1.5s"><span>3 fixes found</span><span>Quote based on facts →</span></div>
+</div>
+</div>
+<h3 class="bd-stage-h">Audit first</h3>
+<p class="bd-stage-p">I look at what's really on your site before I quote. No guesses, and no "it was more complicated than expected".</p>
+</div>
+</sc-if>
+
+<sc-if value="{{rule1}}" hint-placeholder-val="{{false}}">
+<div class="bd-stage-in">
+<div class="bd-stage-top bd-mono"><span>Rule 02</span><span>During the build</span></div>
+<div class="bd-vis bd-vis-stack">
+<div class="bd-win bd-win-back">
+<div class="bd-win-bar"><i></i><i></i><i></i><span class="bd-mono">staging.yoursite.com</span><em class="bd-pill2">Building</em></div>
+<div class="bd-build"><i style="--w:78%;--d:.1s"></i><i style="--w:52%;--d:.3s"></i><i style="--w:90%;--d:.5s"></i><i style="--w:36%;--d:.7s"></i><i style="--w:64%;--d:.9s"></i></div>
+</div>
+<div class="bd-win bd-win-front">
+<div class="bd-win-bar"><i></i><i></i><i></i><span class="bd-mono">yoursite.com</span><em class="bd-pill2 bd-live"><span></span>Live</em></div>
+<div class="bd-enq"><span class="bd-mono">Enquiries today</span><b>+3</b><span class="bd-mono">Zero downtime</span></div>
+</div>
+<div class="bd-backup bd-mono">Backup taken ✓</div>
+</div>
+<h3 class="bd-stage-h">Staging, always</h3>
+<p class="bd-stage-p">Every big change is built on a backed-up copy. Your live site keeps taking enquiries the whole time.</p>
+</div>
+</sc-if>
+
+<sc-if value="{{rule2}}" hint-placeholder-val="{{false}}">
+<div class="bd-stage-in">
+<div class="bd-stage-top bd-mono"><span>Rule 03</span><span>At launch</span></div>
+<div class="bd-vis">
+<div class="bd-win">
+<div class="bd-win-bar"><i></i><i></i><i></i><span class="bd-mono">yoursite.com · live checks</span></div>
+<ul class="bd-alist bd-clist">
+<li style="--d:.15s"><span>Pages</span><b>42 / 42</b><i>✓</i></li>
+<li style="--d:.4s"><span>Forms</span><b>3 / 3</b><i>✓</i></li>
+<li style="--d:.65s"><span>Redirects</span><b>118 / 118</b><i>✓</i></li>
+<li style="--d:.9s"><span>Search Console</span><b>Submitted</b><i>✓</i></li>
+<li style="--d:1.15s"><span>SSL</span><b>Valid</b><i>✓</i></li>
+</ul>
+<div class="bd-verified" style="--d:1.5s"><span class="bd-verified-dot"></span>Verified on the real domain</div>
+</div>
+</div>
+<h3 class="bd-stage-h">Verified live</h3>
+<p class="bd-stage-p">I check every page, form and redirect on your real domain. Not a preview. The real thing.</p>
+</div>
+</sc-if>
+
+<span class="bd-stage-num" aria-hidden="true">{{ruleNum}}</span>
+</div>
+</div>
+</section>

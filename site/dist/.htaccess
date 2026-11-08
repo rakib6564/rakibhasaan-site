@@ -1,0 +1,6 @@
+DirectoryIndex index.html
+Options -Indexes
+Header set X-Robots-Tag "noindex, nofollow"
+<FilesMatch "\.(jpg|jpeg|png|webp)$">
+Header set Cache-Control "public, max-age=2592000"
+</FilesMatch>

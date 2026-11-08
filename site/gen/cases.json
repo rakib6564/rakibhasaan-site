@@ -1,0 +1,1519 @@
+[
+ {
+  "slug": "rtj-rentals",
+  "name": "RTJ Rentals",
+  "industry": "Hospitality & rentals",
+  "color": "#FF6FA5",
+  "country": "USA",
+  "cshort": "USA",
+  "year": "2022",
+  "client": "Rodlyn & Tanya, co-founders",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://rtjrentals.com/",
+  "h1": "RTJ Rentals: a corporate housing website that feels like home",
+  "title": "RTJ Rentals: Corporate Housing Website | Rakib Hasan",
+  "summary": "A WordPress site that helps companies, insurers and families find furnished, pet-friendly temporary housing across Georgia and South Carolina.",
+  "img": "/_blob/9d82c7fb6e05de2701e79d96376053d1",
+  "img2": "/_blob/229c2b34e1ede781a8ab184f672c8c71",
+  "alt": "RTJ Rentals homepage on a laptop.",
+  "p_client": [
+   [
+    {
+     "t": "RTJ Rentals provides corporate housing and short-term apartments for companies, families and people facing temporary displacement, such as after a house fire or flood. Its homes are fully furnished, pet-friendly and in prime locations across Georgia and South Carolina. Co-founders Rodlyn and Tanya built the business around personal service and smooth insurance housing, so guests feel at home from the first night.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "RTJ serves three very different audiences: HR teams placing staff, insurance adjusters arranging emergency housing, and families in a stressful situation. Each needs different information, fast. Before, enquiries came in by phone and email with the same questions every time, and the old one-page site couldn't show individual homes. The site had to look premium enough for corporate clients while staying warm and reassuring for displaced families.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "I designed the site around the homes themselves. Each property has its own page with photos, amenities, location and pet policy, so visitors can compare options without calling first. Clear paths lead corporate clients, insurers and families to the information they need, and enquiry and availability forms built with Gravity Forms send requests straight to the team.",
+     "f": false
+    }
+   ],
+   [
+    {
+     "t": "The design uses large photography and calm, simple layouts to reflect the company's focus on comfort and care. Every page was built responsive for phones, where many displaced guests first search. The site runs on WordPress with Elementor Pro and Crocoblock, so the team can add properties and update details themselves. Wordfence and regular backups keep it secure, and every page launched with unique titles, descriptions and SEO basics.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "The team now adds and updates properties themselves, and most enquiries arrive through the forms with dates, pets and budget already filled in, so fewer calls go on basic questions.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib understood that our guests are often in a hard moment. The site feels calm and personal, and our team can finally update it without help.\" — Tanya, RTJ Rentals",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "villa-lapierrot",
+  "name": "Villa Lapierrot",
+  "industry": "Hospitality & rentals",
+  "color": "#FF6FA5",
+  "country": "Belgium (villa in Provence, France)",
+  "cshort": "Belgium",
+  "year": "2023",
+  "client": "Villa Lapierrot",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://lapierrot.com/",
+  "h1": "Villa Lapierrot: a holiday villa website that sells the setting",
+  "title": "Villa Lapierrot: Holiday Villa Website | Rakib Hasan",
+  "summary": "A WordPress website for a renovated Provençal villa, with availability, pricing and booking requests built in.",
+  "img": "/_blob/3e90a1e3057c56feda9aa00c4dbcdd5f",
+  "img2": "/_blob/4bdecea16978bfc306bc85894d835713",
+  "alt": "Villa Lapierrot homepage.",
+  "p_client": [
+   [
+    {
+     "t": "Villa Lapierrot is a recently renovated holiday home in Provence, between the Dentelles de Montmirail and Mont Ventoux. It sits on a private wooded plot of over 50 ares among vineyards and oak trees, with five air-conditioned bedrooms, a large swimming pool, a terrace with a gas barbecue and a pétanque area. It's made for families and groups of friends looking for a quiet base in the region.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Holiday guests choose with their eyes. The villa competes with large booking platforms, so its own site had to make the setting irresistible and make booking direct just as easy. The owners relied almost entirely on booking platforms and their commission, with only a basic page of their own that showed little of the villa.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "The design leads with the landscape: large photography of the pool, terrace and surrounding vineyards, with short text that lets the images do the selling. I organised the content around what guests care about most: the bedrooms, the pool, outdoor living, and how close the villa is to local attractions in Provence.",
+     "f": false
+    }
+   ],
+   [
+    {
+     "t": "Guests can check availability, see pricing and send a booking request without leaving the site. Every page is responsive, since many holiday searches start on a phone, and the site was optimised for searches about villas in the area. The owners can update photos, prices and seasonal details themselves in Elementor.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Returning guests now book direct through the villa’s own site, and the gallery does the selling before anyone sends a message.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Our guests tell us the website made them fall in love with the villa before they arrived. Exactly what we wanted.\" — Villa Lapierrot owners",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "redkey-logistics",
+  "name": "Redkey Logistics",
+  "industry": "Logistics & transport",
+  "color": "#8EA2FF",
+  "country": "USA",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Jonathan Cooper",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://redkeylogistics.com/",
+  "h1": "Redkey Logistics: a freight company website built for trust",
+  "title": "Redkey Logistics: Freight Company Website | Rakib Hasan",
+  "summary": "A clear, fast WordPress site that explains a full range of freight services and turns shippers into quote requests.",
+  "img": "/_blob/b131e2de14c018247fe2c08587aa79d2",
+  "img2": "/_blob/9f399aff99f76335098df544fa71a4cd",
+  "alt": "Redkey Logistics on a tablet.",
+  "p_client": [
+   [
+    {
+     "t": "RedKey Logistics LLC is a US transportation provider offering flatbeds, step decks, hot shots, dedicated box trucks and specialised heavy haul. It has guaranteed capacity at major US ports and access to over 50,000 vetted carriers, and handles truckload, less-than-truckload (LTL), intermodal and specialised shipping.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Shippers choosing a logistics partner want proof of reliability and a quick way to get a quote. Redkey offers many services, and the site had to explain them without overwhelming visitors, while showing the scale behind the business. The old site listed services in one long page and had no clear way to ask for a quote, so serious shippers often called instead or moved on.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "I designed a streamlined site that puts Redkey's services and capacity front and centre. Each shipping service, from flatbed to intermodal, is explained in plain terms, and key numbers such as port capacity and carrier network are shown early as proof. The layout emphasises Redkey's quick response times, and quote and contact forms built with Gravity Forms are a click away from every page.",
+     "f": false
+    }
+   ],
+   [
+    {
+     "t": "The site is built on WordPress with Elementor Pro and Crocoblock, so the team can add services and update information without a developer. It's responsive on every device, secured with Wordfence, and launched with SEO foundations for logistics searches.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Quote requests now arrive with lane, freight type and dates filled in, and the sales team spends less time chasing basic details.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib done an outstanding job! Very pleased with the results!\" — Jonathan Cooper, Redkey Logistics",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "cdg-maui",
+  "name": "CDG Maui",
+  "industry": "Construction & trades",
+  "color": "#FF5A1F",
+  "country": "USA (Hawaii)",
+  "cshort": "USA",
+  "year": "2024",
+  "client": "Katharina Voigt",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://cdgmaui.com/",
+  "h1": "CDG Maui: a design-build website rooted in its community",
+  "title": "CDG Maui: Design-Build Construction Website | Rakib Hasan",
+  "summary": "A WordPress site for a Maui design-build firm that wins work on trust and local reputation.",
+  "img": "/_blob/e37702657907eb0bc2e36a82f2212ce8",
+  "img2": "/_blob/5f41ead76425fc1adf8060cba5918a75",
+  "alt": "CDG Maui website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "CDG Maui is a design-build firm based on Maui with over a decade of experience and deep roots in the local community. It's built on three values: safety, integrity and dedication. The firm has long-term relationships with both its customers and local subcontractors.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "On an island, most work comes through reputation. The website had to carry that reputation to people who hadn't heard of the firm yet, and explain the design-build model clearly. The firm had an outdated site that undersold its work and wanted something that explained design-build simply and showed finished projects.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A clean site that leads with the firm's values and local roots, then shows its services and completed projects. Enquiries go through Gravity Forms, and the team can update projects in Elementor.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "The firm now sends prospects straight to the project gallery, and new enquiries arrive already understanding how design-build works.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib captured who we are as a Maui firm. The site finally matches the quality of our projects.\" — Katharina Voigt, CDG Maui",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "cgp-construction-corp",
+  "name": "CGP Construction Corp",
+  "industry": "Construction & trades",
+  "color": "#FF5A1F",
+  "country": "USA (New York)",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Gray",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "",
+  "h1": "CGP Construction Corp: a foundation repair website that teaches",
+  "title": "CGP Construction: Foundation Repair Website | Rakib Hasan",
+  "summary": "A content-led WordPress site that helps homeowners understand foundation problems and find affordable fixes.",
+  "img": "/_blob/3694c109ea579750e33aef9a769d2f94",
+  "img2": "/_blob/a309fc3cbdd9428de1de5d65dd109144",
+  "alt": "CGP Construction Corp website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "CGP Construction Corp is a New York construction company that helps homeowners with foundation repair and renovation. Its work ranges from crack sealing to full foundation stabilisation, alongside sustainable renovation ideas such as repurposing materials and energy-efficient upgrades.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Homeowners with foundation worries search for answers before they search for a contractor. The site needed to meet them at that first question and build trust before asking for a call.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A site structured around practical advice. A blog covers repair techniques and renovation ideas, and DIY tips help homeowners understand their options. Service pages then explain when to call a professional. Content was written with SEO in mind to reach homeowners searching for cost-effective solutions.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "The blog and service pages now bring in local searches every month, and the team has a portfolio to send with every quote.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"The best ever! Always using him for all of my projects!\" — Gray, CGP Construction Corp",
+     "f": false
+    }
+   ],
+   [
+    {
+     "t": "Fix first: your portfolio links this project to mpelectric.rakibhasaan.com, a demo on your own domain. Link the client's real site, or label it clearly as a concept.",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "joab-construction",
+  "name": "JOAB Construction",
+  "industry": "Construction & trades",
+  "color": "#FF5A1F",
+  "country": "Uganda",
+  "cshort": "Uganda",
+  "year": "2024",
+  "client": "Paul, JOAB Investment and Construction (U) Ltd",
+  "stack": "WordPress, Elementor Pro, Crocoblock, WPForms, Wordfence",
+  "service": "Design & development",
+  "live": "https://joabconstruction.com/",
+  "h1": "JOAB Construction: a website built on reliability",
+  "title": "JOAB Construction: Construction Firm Website | Rakib Hasan",
+  "summary": "A professional website for a full-service construction and investment company, with services, past projects and easy contact.",
+  "img": "/_blob/25352af8e18f0bea31d93fe93145daa7",
+  "img2": "/_blob/6ef933aaadf45d79e08e5154cddb3079",
+  "alt": "JOAB Construction website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "JOAB Investment and Construction is a full-service construction and investment company with over 15 years of experience. It focuses on safety, efficiency and quality workmanship, and aims to be the most reliable construction firm in its region.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Construction clients judge a builder by past work and dependability. The site had to show both, and present the company's investment side without confusing people who just want a building delivered. They wanted one site that could win construction clients and explain the investment side to partners, without the two confusing each other.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "Service-specific pages for each type of construction work, a project portfolio of past builds, and contact forms on every key page. The design is clean and confident, responsive on every device, and set up for search so the firm is easier to find in a competitive market.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "The company now uses the site in every tender and investor meeting, and both audiences find their own path in a click.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Professional work and great communication across time zones. Our clients and partners both love the new site.\" — Paul, JOAB Construction",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "remodeling-rf",
+  "name": "RF Home Remodeling",
+  "industry": "Construction & trades",
+  "color": "#FF5A1F",
+  "country": "USA (Philadelphia)",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Rafael",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://remodelingrf.com/",
+  "h1": "RF Home Remodeling: a renovation website that makes estimates easy",
+  "title": "RF Home Remodeling: Renovation Website | Rakib Hasan",
+  "summary": "A clean WordPress site that shows a Philadelphia remodeler's range and turns visitors into estimate requests.",
+  "img": "/_blob/d3f8c1d570d1e654e963ed3ab3bad18f",
+  "img2": "/_blob/ad7317476eef0d708976e7909002e452",
+  "alt": "RF Home Remodeling website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "RF Home Remodeling is a home renovation company in Philadelphia. It specialises in ceramic flooring, kitchen and bathroom remodels, painting, tile work and other flooring, with a focus on precise work and a stress-free experience.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Remodeling customers want to see quality and get a price quickly. The site had to present many services without clutter and make asking for an estimate effortless.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A clean, intuitive site with a page for each renovation service and clear navigation between them. Estimate requests are a click away from every service page. The design communicates the company's commitment to quality and customer satisfaction.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Estimate requests now come through the site every week, with photos of the job attached, so quotes go out faster.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Go ahead, this guy is really good.\" — Rafael, RF Home Remodeling",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "palm-tile",
+  "name": "Palm Flooring",
+  "industry": "Construction & trades",
+  "color": "#FF5A1F",
+  "country": "USA (New England)",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Thiago Fernan",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://palmtile.us/",
+  "h1": "Palm Flooring: a family business website built for estimates",
+  "title": "Palm Flooring: Flooring & Remodeling Website | Rakib Hasan",
+  "summary": "A professional WordPress site for a family-owned flooring and remodeling company, with a simple path to request an estimate.",
+  "img": "/_blob/b5ab7d08d5870755f32a3d0a43e7f82a",
+  "img2": "/_blob/730b5eae11e6f0f30f3f32a407a11a8c",
+  "alt": "Palm Flooring website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Palm Flooring, LLC is a family-owned business delivering flooring and remodeling across New England. Its services include full bathroom remodels, tile work, and wood, laminate and vinyl flooring. The company is known for professionalism, reliable timing and keeping a clean work site.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "A family business competes with bigger firms on trust and care. The website needed to look as professional as the work, explain a wide range of services simply, and make it easy for homeowners to ask for a price.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A clean, professional site with clear navigation to each service and a strong value proposition on the homepage. Estimate requests run through a simple form available from every service page. The design reflects the company's commitment to quality and client satisfaction.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "The gallery is now the most visited page, and estimate requests arrive with room sizes and photos attached.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Always great to work with. He has done several sites for me, and all have been fantastic!\" — Thiago Fernan, Palm Flooring",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "carolina-custom-glass-works",
+  "name": "Carolina Custom Glass Works",
+  "industry": "Construction & trades",
+  "color": "#FF5A1F",
+  "country": "USA (North Carolina)",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Joel Wood",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://carolinacustomglassworks.com/",
+  "h1": "Carolina Custom Glass Works: a website that shows the craft",
+  "title": "Carolina Custom Glass Works: Glass Website | Rakib Hasan",
+  "summary": "A visual WordPress site that shows custom glass work for homes and businesses, product by product.",
+  "img": "/_blob/286bece3cd0f08b4ad4ec3f69420675b",
+  "img2": "/_blob/baaeb357fb7bfbaf48f9836450398eab",
+  "alt": "Carolina Custom Glass Works website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Carolina Custom Glass Works makes custom glass for residential and commercial spaces. Its products include custom shower enclosures, storefronts, windows, glass railings and closet systems, each made to fit the space.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Custom glass is bought on looks and precision, and homeowners and businesses want different things. The site needed to show finished work beautifully and give each product its own clear explanation.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A clean, user-friendly site with a detailed page for every product type and a portfolio of completed installations. It's responsive on every device and optimised for search, so each product page can rank for its own searches.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Measure requests now come in through the site with photos and dimensions, and the gallery does most of the selling.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Third site with Rakib and every one has been on time and better than expected.\" — Joel Wood, Carolina Custom Glass Works",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "mendozaa-electric",
+  "name": "Mendozaa Electric",
+  "industry": "Construction & trades",
+  "color": "#FF5A1F",
+  "country": "USA",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Mendoza",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "",
+  "h1": "Mendozaa Electric: an electrician website built for local calls",
+  "title": "Mendozaa Electric: Electrician Website | Rakib Hasan",
+  "summary": "A WordPress site for San Antonio-based electrical contractor Mendozaa Electric that turns local searches into calls.",
+  "img": "/_blob/e369575fbe3c3cc45657c3dddb40acc7",
+  "img2": "/_blob/628ecc20ff90f5964b1ed4b297c9bfdc",
+  "alt": "Mendozaa Electric website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Mendozaa Electric is a licensed electrical contractor in San Antonio, Texas, handling residential and commercial work, panel upgrades, lighting and EV charger installs.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Most people need an electrician urgently and pick one from the first page of results. The site had to load fast on a phone, show the service area clearly, and put the phone number everywhere. The business needed to appear on the first page for local electrical searches and make calling as quick as possible.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A fast WordPress site with a page for each service, a service area page, a short quote form and a click-to-call button that stays on screen on phones.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Calls from the site started in the first month, and the click-to-call button is now the most used part of every page.",
+     "f": false
+    }
+   ],
+   [
+    {
+     "t": "Fix first: tell the client their SSL certificate doesn't match their domain. Browsers show a security warning, which costs them calls. It's also an easy paid fix to offer.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Fast, clear and easy to work with. The phone rings more since the new site went live.\" — Mendoza, Mendozaa Electric",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "restyling-solutions-nc",
+  "name": "Restyling Solutions NC",
+  "industry": "Construction & trades",
+  "color": "#FF5A1F",
+  "country": "USA (North Carolina)",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Joel Wood",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://restylingsolutionsnc.com/",
+  "h1": "Restyling Solutions NC: a vehicle wrap website that shows the work",
+  "title": "Restyling Solutions NC: Vehicle Wrap Website | Rakib Hasan",
+  "summary": "A responsive WordPress site that shows off vinyl wrap work for drivers and businesses.",
+  "img": "/_blob/328c13546989c69bb9e8ce58a3474bec",
+  "img2": "/_blob/c7c0568ed0fbefa7a56a3a12c9cff977",
+  "alt": "Restyling Solutions NC website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Restyling Solutions transforms vehicles with high-quality vinyl wraps, for drivers who want to personalise their car and businesses that want their vehicles to advertise for them.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Wraps sell on visuals. The site needed to show past work at its best and speak to two audiences at once: individual owners and business fleets.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A user-friendly, responsive layout with detailed service pages, examples of previous wraps, and a contact form for project enquiries. The site was optimised for search to boost local visibility.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "The team now sends the portfolio with every quote, and local enquiries arrive through the form each week.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib makes the whole process easy. We keep coming back for every new business.\" — Joel Wood, Restyling Solutions NC",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "fourelevenlogistics",
+  "name": "4Eleven Logistics",
+  "industry": "Logistics & transport",
+  "color": "#8EA2FF",
+  "country": "USA (Charlotte, North Carolina)",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Joel Wood",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://fourelevenlogistics.com/",
+  "h1": "4Eleven Logistics: a vehicle shipping website built around the quote",
+  "title": "4Eleven Logistics: Vehicle Shipping Website | Rakib Hasan",
+  "summary": "A WordPress site that explains nationwide vehicle and equipment shipping simply and puts the instant quote first.",
+  "img": "/_blob/f9a1a1222b075e0f0ff6e601beccbb42",
+  "img2": "/_blob/7517172eb78c7fe4f8b0c7ea0ea548fa",
+  "alt": "4Eleven Logistics website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "4Eleven Logistics is a Charlotte, North Carolina transportation company that ships vehicles and equipment nationwide. It moves standard cars, trucks and SUVs, classic and exotic cars, heavy equipment and machinery, and difficult loads such as non-running and oversized vehicles.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "People shipping a vehicle want a price fast and reassurance that their vehicle is in safe hands. The site needed to make quoting the obvious next step while explaining what makes each type of shipment different.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A homepage that leads with \"Get an instant quote\" and a click-to-call number, a dedicated quote page, and service pages for each vehicle category. A three-step \"How it works\" section covers pricing, vehicle care and shipping options, and testimonials and an about page build trust. Contact runs through Gravity Forms.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Quote requests now arrive from the site on most working days, and carriers sign up without a call first.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Professional, quick and always one step ahead. Exactly what a logistics business needs.\" — Joel Wood, 4Eleven Logistics",
+     "f": false
+    }
+   ],
+   [
+    {
+     "t": "Placeholder: the live site's counters currently show zero. Use 10+ years of experience and 98% customer satisfaction until the client confirms the real figures.",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "anytime-pilot-car",
+  "name": "Anytime Pilot Car",
+  "industry": "Logistics & transport",
+  "color": "#8EA2FF",
+  "country": "USA (Cleveland, Texas)",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Kevin",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://anytimepilotcar.com/",
+  "h1": "Anytime Pilot Car: an escort service website truckers can trust",
+  "title": "Anytime Pilot Car: Escort Service Website | Rakib Hasan",
+  "summary": "A clear WordPress site for a Texas pilot car company, explaining each escort service and making quotes easy.",
+  "img": "/_blob/481da1b6ba85dfaec742a01852851727",
+  "img2": "/_blob/16548aa6fa15690ed23f26bc814c77e3",
+  "alt": "Anytime Pilot Car website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Anytime Pilot Car Service escorts oversized and heavy freight on the road. It offers oversized load escorts with route surveys and state routing suggestions, high pole cars for tall loads, steermen, and lead and chase cars. The company says it has over 25 years of experience and carries $1 million in auto and cargo insurance.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Carriers hiring an escort need to know quickly that the company covers their load type and is properly insured. The site had to explain specialist services in plain words and get a quote request moving.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A focused site with a page for each service, a four-step process (assessment, planning, escort, arrival), and prominent proof points: experience and insurance cover. A \"Get a quote\" page and contact page make the next step simple, with free consultations and cost estimates highlighted.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Dispatchers now book escorts through the site any time of day, and the team wakes up to requests with routes and dates already filled in.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib built exactly what our dispatchers needed. Bookings come in day and night now.\" — Kevin, Anytime Pilot Car",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "anytime-brokerage",
+  "name": "Anytime Brokerage",
+  "industry": "Logistics & transport",
+  "color": "#8EA2FF",
+  "country": "USA",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Kevin",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://anytimebrokerage.com/",
+  "h1": "Anytime Brokerage: a freight broker website built on transparency",
+  "title": "Anytime Brokerage: Freight Broker Website | Rakib Hasan",
+  "summary": "A WordPress site for a freight brokerage that shows its range of services and its focus on reliable, compliant carriers.",
+  "img": "/_blob/ceb8019ed0aff156edf1db1c552d250f",
+  "img2": "/_blob/50192a4e302938e70c699e6be11d3222",
+  "alt": "Anytime Brokerage website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Anytime Brokerage is a logistics and freight company offering custom shipping solutions. It vets its carriers and keeps them compliant with safety rules, and its services include truckload, less-than-truckload (LTL), heavy haul and intermodal transport.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Shippers choose a broker on reliability and transparency. The site had to make a broad service list easy to scan and show why the company's carriers can be trusted. It's a sister company to Anytime Pilot Car, so the two sites also needed to feel related without being confused.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A user-friendly site with a clear page for each transport mode and an emphasis on carrier vetting and compliance. Clients can track their shipments in real time, review carrier options and manage their logistics from one place. I also built in freight payment and compliance tools, with access to reports and full order history, so customers always know where their freight stands.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Shippers and carriers each find their own path straight away, and new load requests come through the site every week.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Second project together and just as smooth. Rakib gets our business.\" — Kevin, Anytime Brokerage",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "safi-cleaners",
+  "name": "Safi Cleaners",
+  "industry": "Cleaning & sterilisation",
+  "color": "#19C7B0",
+  "country": "USA (Ludlow, Massachusetts)",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Emaina",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://saficleaners.net/",
+  "h1": "Safi Cleaners: a house cleaning website that books jobs",
+  "title": "Safi Cleaners: House Cleaning Website | Rakib Hasan",
+  "summary": "A local cleaning company's WordPress site that turns visitors across Hampden County into fixed-price quote requests.",
+  "img": "/_blob/8bad9500d3d698ebbeff8b1348d8df76",
+  "img2": "/_blob/14cd0d34b870c9c7c20b9394e4c699be",
+  "alt": "Safi Cleaners website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Safi Cleaners is a locally owned house cleaning business in Ludlow, Massachusetts. It serves Ludlow, Springfield, Chicopee, Wilbraham, Longmeadow, West Springfield and the rest of Hampden County. Services cover residential cleaning, Airbnb turnovers, deep cleans, move-in and move-out cleans, recurring plans, organising, and office cleaning.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "People choosing a cleaner worry about price surprises and whether they can trust someone in their home. The site needed to answer both quickly and make booking feel low-risk.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A site with a clear page for each service, a list of the towns served, and a \"How it works\" section. A free quote form collects the service, property details, schedule and contact information, so the team can give a fixed quote before booking. Trust builders include reviews, a \"Why us\" section and the company's free 24-hour re-clean promise. Opening hours and contact details sit on every page.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Quote requests now arrive through the site every week, with the size of the home and the cleaning type already included.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib made our small business look as professional as the big names. Quotes come in every week now.\" — Emaina, Safi Cleaners",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "steri-clean",
+  "name": "Steri Clean",
+  "industry": "Cleaning & sterilisation",
+  "color": "#19C7B0",
+  "country": "Belgium",
+  "cshort": "Belgium",
+  "year": "2023",
+  "client": "Stéphanie Escouflaire",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://stericlean.be/",
+  "h1": "Stericlean: a cleaning website for dental and medical practices",
+  "title": "Steri Clean: Medical Cleaning Website | Rakib Hasan",
+  "summary": "A WordPress site that positions a Belgian specialist cleaner as the hygiene partner for healthcare practices.",
+  "img": "/_blob/3dcd1ecd56542a30fe122f5ab14fa388",
+  "img2": "/_blob/d2d4f39655dab4a67a2f546fbca62176",
+  "alt": "Steri Clean website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Stericlean provides cleaning and disinfection services made specifically for dental and medical practices. Its focus is a clean, healthy environment that meets the strict hygiene and safety standards healthcare work demands.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Healthcare practices can't risk choosing the wrong cleaner. The site had to show specialist knowledge, not general cleaning, and present Stericlean as a dependable partner for the sector.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A site that explains Stericlean's specialised cleaning and disinfection services clearly, with a calm, clinical design that suits its audience. Visitors can quickly understand what's included and how to get in touch, giving practices a smooth route to a reliable provider. The site is available in French and Dutch.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Practices now find the services and contact form in their own language, and enquiries come in from new regions.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib is a really great professional; it's a pleasure to work with him, I'm very pleased with the result, as always!\" — Stéphanie Escouflaire, Stericlean",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "steri-lab",
+  "name": "SteriLab",
+  "industry": "Cleaning & sterilisation",
+  "color": "#19C7B0",
+  "country": "Belgium",
+  "cshort": "Belgium",
+  "year": "2024",
+  "client": "Stéphanie Escouflaire",
+  "stack": "WordPress, Elementor Pro, Crocoblock, WPForms, Wordfence",
+  "service": "Design & development",
+  "live": "https://sterilab.be/",
+  "h1": "SteriLab: a website that makes sterilisation easy to trust",
+  "title": "SteriLab: Sterilisation Service Website | Rakib Hasan",
+  "summary": "A clear WordPress site that walks healthcare professionals through a full instrument sterilisation process, step by step.",
+  "img": "/_blob/8072fc0cac2feb8ae510aebdffb99dcb",
+  "img2": "/_blob/9d83d8cb9ebe8a9063112c794d7311c8",
+  "alt": "SteriLab website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "SteriLab sterilises dental and medical instruments for healthcare professionals, offering a streamlined, cost-effective alternative to doing it in-house. Its process covers sorting, pre-washing, washing, disinfection, control, packaging and traceability, in line with current standards and legislation.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Outsourcing sterilisation means trusting someone else with patient safety. The site had to make a technical, regulated process easy to understand and show compliance at every stage.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A clear, user-friendly site that explains each step of the sterilisation process in its own section, so visitors can see exactly what happens to their instruments. The design balances clarity and polish, and highlights SteriLab's commitment to compliance and efficiency.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "The lab now has its own credible home online, and the two brands send visitors to each other.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Perfect continuity with our first site, and delivered faster than we expected.\" — Stéphanie Escouflaire, SteriLab",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "la-cote-de-beaune",
+  "name": "La Côte de Beaune",
+  "industry": "Hospitality & rentals",
+  "color": "#FF6FA5",
+  "country": "Belgium",
+  "cshort": "Belgium",
+  "year": "2023",
+  "client": "La Côte de Beaune",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://lacotedebeaune.be/",
+  "h1": "La Côte de Beaune: a delicatessen website as good as the food",
+  "title": "La Côte de Beaune: Delicatessen Website | Rakib Hasan",
+  "summary": "An elegant WordPress site for a Belgian delicatessen and caterer, built to make mouths water and catering enquiries easy.",
+  "img": "/_blob/728ddb48bbba781266f58026eee8a89a",
+  "img2": "/_blob/7544052511ff7ff5769b901110e16ef0",
+  "alt": "La Côte de Beaune website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "La Côte de Beaune is a delicatessen and catering counter founded by Michel and Thomas in 1994. It brings together decades of experience with Belgian and French cuisine to delight both the eyes and the palate.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Food is sold through the eyes first. The site had to reflect the quality and elegance of the dishes, and serve two kinds of visitor: shoppers planning a visit to the counter and customers arranging catering.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A sophisticated, image-led site with high-quality photography of the dishes, clear sections for the delicatessen and the catering service, and easy access to contact details for catering enquiries and reservations. Navigation stays simple so visitors can find what they need in a couple of clicks.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Direct bookings and returning guests now come through the site, and the owners update rates and photos themselves.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Beautiful work. Our guests say the site feels like the house itself.\" — La Côte de Beaune owners",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "domaine-de-la-haye",
+  "name": "Domaine de La Haye",
+  "industry": "Hospitality & rentals",
+  "color": "#FF6FA5",
+  "country": "Belgium (estate in Normandy, France)",
+  "cshort": "Belgium",
+  "year": "2023",
+  "client": "Domaine de La Haye",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://domaine-de-la-haye.com/",
+  "h1": "Domaine de La Haye: an estate website that invites you outdoors",
+  "title": "Domaine de La Haye: Country Estate Website | Rakib Hasan",
+  "summary": "A WordPress site for a 200-hectare Normandy estate that sells peace, nature and easy planning.",
+  "img": "/_blob/7769f266ba201a2928a63e223f18c068",
+  "img2": "/_blob/502c053d16abaaa88b7ed1b4105ae1be",
+  "alt": "Domaine de La Haye website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Domaine de La Haye is an estate in Guerville, Normandy, covering more than 200 hectares of woods and meadows. Its forest is sustainably managed, with beech, oak, Douglas fir and maple. Guests come for forest walks, wildlife spotting, and cycling on trails through the Yères and Bresle valleys.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "The estate's appeal is space, history and nature, which is hard to convey in a few seconds on a screen. The site also had to give practical details about staying there without losing that calm feeling.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A visually rich site that communicates the tranquil, historic character of the property. Clear sections cover accommodation, the natural environment and nearby activities, with intuitive navigation and easy access to reservation information so guests can plan their stay.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Event and stay enquiries now come through the site with dates and guest numbers, and the estate shows off its setting properly.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib understood the spirit of the estate. Elegant, simple and easy for us to manage.\" — Domaine de La Haye",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "sergio-ardila-law",
+  "name": "Sergio Ardila Law",
+  "industry": "Professional services",
+  "color": "#E8B931",
+  "country": "USA (Atlanta, Georgia)",
+  "cshort": "USA",
+  "year": "2023",
+  "client": "Sergio Ardila",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://www.sergioardilalaw.com/",
+  "h1": "Sergio Ardila Law: a bilingual injury law website that starts the case",
+  "title": "Sergio Ardila Law: Injury Lawyer Website | Rakib Hasan",
+  "summary": "An English and Spanish WordPress site for an Atlanta personal injury firm, built to turn worried visitors into consultations.",
+  "img": "/_blob/611fb132b1dbd5cec1b65c55e0a4ff7d",
+  "img2": "/_blob/a3d672e17f514e97b21a7067dda2f8c8",
+  "alt": "Sergio Ardila Law website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Sergio Ardila Law is a personal injury firm in Atlanta, Georgia, also known as BlackBeltAttorney. It handles vehicle accidents, serious injuries, wrongful death, workers' compensation and premises liability cases, and serves clients in English and Spanish.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "People visiting an injury lawyer's site are often stressed and unsure whether they even have a case. The site had to reassure them, work in two languages, and make the first step feel easy.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A homepage with a \"Do I have a case?\" form that asks only for the essentials, a page for each practice area, and an \"Our firm\" section with the attorney's biography, case results and approach. Client reviews and an FAQ about fees and filing deadlines answer common worries, and every page leads to a free consultation. Every page is available in English and Spanish.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Consultation requests now come through the \"Do I have a case?\" form every week, and the firm reaches Spanish-speaking clients directly.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Professional, patient and clear. The site makes our clients feel comfortable reaching out.\" — Sergio Ardila, Sergio Ardila Law",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "crenee-salone",
+  "name": "Courageous & Free Collective",
+  "industry": "Professional services",
+  "color": "#E8B931",
+  "country": "USA",
+  "cshort": "USA",
+  "year": "2024",
+  "client": "Crenee Salone, BCF Consulting",
+  "stack": "WordPress, Elementor Pro, Crocoblock, WPForms, Wordfence",
+  "service": "Design & development",
+  "live": "https://www.creneesalone.com/",
+  "h1": "Courageous & Free: an accessible coaching website",
+  "title": "Courageous & Free: Life Coaching Website | Rakib Hasan",
+  "summary": "An accessible WordPress site for a coaching and advocacy practice supporting people with chronic illness and invisible disabilities.",
+  "img": "/_blob/e478b7fe0c00e9c9c00b93c3cf19ba63",
+  "img2": "/_blob/058c98acfa0cec52f6980b3b07dc6920",
+  "alt": "Courageous & Free Collective website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Courageous & Free Collective, from BCF Consulting, helps people living with chronic illness and invisible disabilities improve their quality of life. It offers life coaching, leadership and executive coaching, professional speaking and advocacy programmes.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "The audience includes people whose conditions can make websites harder to use. The site had to be accessible and calm, and present a wide range of services, from personal coaching to speaking engagements, without overwhelming anyone.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A professional, accessible site with a dedicated page for each service, a consultation request form, and a responsive layout that works on any device. It was set up for search to reach a broad audience looking for coaching and advocacy support.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Visitors now reach the right programme in a couple of clicks, and consultation requests arrive with the person’s needs already described.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib took accessibility seriously from the first call. Our community finds the site easy and calm to use.\" — Crenee Salone, Courageous & Free Collective",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "sabiha-ozbay",
+  "name": "Sabiha Ozbay",
+  "industry": "Professional services",
+  "color": "#E8B931",
+  "country": "United Kingdom",
+  "cshort": "United Kingdom",
+  "year": "2023",
+  "client": "Sabiha Ozbay",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "",
+  "h1": "Sabiha Ozbay: a business coaching website",
+  "title": "Sabiha Ozbay: Business Coach Website | Rakib Hasan",
+  "summary": "A WordPress site for UK business coach Sabiha Ozbay, who mentors people starting or growing a career in project management.",
+  "img": "/_blob/dd01d27cc45000d209d73b85687f967a",
+  "img2": "/_blob/7a6648e10518fa6511379fe721f92b45",
+  "alt": "Sabiha Ozbay website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Sabiha Ozbay is a UK-based business coach and project management mentor. Her programmes help early-career professionals and career changers build skills, confidence and a clear path into the field.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Sabiha needed a warm, credible site that explained her mentoring programme clearly and made booking a first discovery call feel easy.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A soft, editorial design with a homepage that leads with her mentoring promise, a \"What we offer\" section, an About page with her story, and a discovery call form on every page.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Sabiha now has a professional home for her mentoring programme, and discovery calls are booked straight from the site.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Rakib made the whole process easy and the site looks exactly like my brand.\" — Sabiha Ozbay",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "tatiana-megard",
+  "name": "Tatiana Megard",
+  "industry": "Creative & wellness",
+  "color": "#B49BFF",
+  "country": "Belgium",
+  "cshort": "Belgium",
+  "year": "2023",
+  "client": "Tatiana Megard",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://tatianamegard.com/",
+  "h1": "Tatiana Megard: a minimalist portfolio for an avant-garde designer",
+  "title": "Tatiana Megard: Fashion Designer Portfolio | Rakib Hasan",
+  "summary": "An elegant, minimalist WordPress portfolio that lets a fashion designer's collections speak for themselves.",
+  "img": "/_blob/3d7dd89fe2d5f85018e84b655abb7040",
+  "img2": "/_blob/ef891c911dab38812b8c95082640c66c",
+  "alt": "Tatiana Megard website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Tatiana Megard is a fashion designer whose work treats fashion as a craft. Her collections focus on physical materiality and sharp, abstract geometric lines, reworking classic clothing with an avant-garde approach.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "A designer's portfolio must feel like her work, and anything decorative gets in the way. The site had to be quiet, precise and image-led, while still explaining her creative process.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A sleek portfolio layout with high-quality images of each collection, generous white space and simple navigation between collections, process and contact. It's responsive on every device and optimised for search to raise her visibility in the fashion industry.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Tatiana now sends clients and stockists to one elegant portfolio instead of scattered social posts.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Elegant and simple, exactly as I imagined. Rakib listened to every detail.\" — Tatiana Megard",
+     "f": false
+    }
+   ],
+   [
+    {
+     "t": "Fix first: this project's text was copied onto five other projects on your current site. Once those are rewritten, it appears only here.",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "inextenso",
+  "name": "(in)extenso",
+  "industry": "Creative & wellness",
+  "color": "#B49BFF",
+  "country": "Belgium",
+  "cshort": "Belgium",
+  "year": "2023",
+  "client": "(in)extenso",
+  "stack": "WordPress, Elementor Pro, Crocoblock, Gravity Forms, Wordfence",
+  "service": "Design & development",
+  "live": "https://inextenso.be/",
+  "h1": "(in)extenso: a portfolio website for a publishing-led design studio",
+  "title": "(in)extenso: Graphic Design Studio Website | Rakib Hasan",
+  "summary": "A French-language WordPress site for a graphic design studio, presenting its project portfolio and services for cultural and publishing clients.",
+  "img": "/_blob/4e3a395e9defb5a82477213e221ba659",
+  "img2": "/_blob/b7638e32a5175d816b6b5d36fb714851",
+  "alt": "(in)extenso website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "(in)extenso is a graphic design studio led by Lisa Boxus, who has over 25 years of experience. It specialises in publishing, with deep knowledge of printing and finishing, and creates communication materials, visual identities, illustrations, books and objects. Clients include the Théâtre Royal du Parc, Pierre de Lune and the Jean Dubuffet Foundation.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "Designers judge other designers' websites harshly. The site had to showcase a strong body of print work on screen and explain how the studio supports clients from first idea to finished object.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A portfolio-led site with a projects section, a services page, an about page, an FAQ and a contact page. A \"Tested and approved\" testimonials section adds social proof, and links to Instagram, Facebook and LinkedIn connect the site to the studio's wider presence.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "The studio now presents its projects in a format clients remember, and new enquiries reference specific work they saw.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"A thoughtful designer who understands creative work. Great result.\" — (in)extenso",
+     "f": false
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "tunderkehely",
+  "name": "Tündérkehely",
+  "industry": "Creative & wellness",
+  "color": "#B49BFF",
+  "country": "Hungary",
+  "cshort": "Hungary",
+  "year": "2024",
+  "client": "Abonyi Tünde Anná",
+  "stack": "WordPress, Elementor Pro, Crocoblock, WPForms, Wordfence",
+  "service": "Design & development",
+  "live": "https://tunderkehely.hu/",
+  "h1": "Tündérkehely: a calm website for yoga, sound and healing",
+  "title": "Tündérkehely: Yoga & Sound Therapy Website | Rakib Hasan",
+  "summary": "A Hungarian-language WordPress site for a wellness practice, bringing classes, sound journeys, events and booking into one calm place.",
+  "img": "/_blob/e05ff9589b5b8011ed6fb9dc397b122d",
+  "img2": "/_blob/df2377db3d31b6aa7a4bbc8ff9919224",
+  "alt": "Tündérkehely website on a laptop",
+  "p_client": [
+   [
+    {
+     "t": "Tündérkehely offers yoga, sound therapy and grief counselling, in person in Budapest and Gyál and online. It runs group yoga classes, individual, paired and group sound journeys, and events such as floating sound baths, sound bowl relaxation sessions and women's yoga retreats.",
+     "f": false
+    }
+   ]
+  ],
+  "p_challenge": [
+   [
+    {
+     "t": "A wellness site has to feel restful while doing practical work: listing classes in two locations, keeping an events calendar current, and sending people to book.",
+     "f": false
+    }
+   ]
+  ],
+  "p_built": [
+   [
+    {
+     "t": "A calm, simple site with sections for services, events, pricing and booking, a blog and contact. Booking connects to the practice's external booking platform, and a newsletter sign-up keeps visitors coming back for new events.",
+     "f": false
+    }
+   ]
+  ],
+  "p_result": [
+   [
+    {
+     "t": "Classes and events are now easy to find in both locations, and bookings come straight from the calendar.",
+     "f": false
+    }
+   ]
+  ],
+  "p_testi": [
+   [
+    {
+     "t": "> \"Professional, fast, communicative. I love my website. I recommend the work with him.\" — Abonyi Tünde Anná, Tündérkehely",
+     "f": false
+    }
+   ]
+  ]
+ }
+]

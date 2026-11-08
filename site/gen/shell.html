@@ -1,0 +1,149 @@
+<sc-if value="{{mega}}" hint-placeholder-val="{{false}}">
+<div class="bd-scrim" aria-hidden="true" onClick="{{closeMega}}"></div>
+</sc-if>
+<header id="bd-header" class="bd-head" onMouseLeave="{{closeMega}}">
+<div class="bd-shell">
+<div class="bd-bar">
+<a href="Creative.dc.html" class="bd-logo"><span class="bd-logo-dot" aria-hidden="true"></span>Rakib Hasan</a>
+<nav aria-label="Main" class="bd-desk bd-nav">
+<button type="button" class="bd-nl" data-nav="Industries" onClick="{{toggleMega}}" onMouseEnter="{{openMega}}" aria-expanded="{{megaOpen}}" aria-controls="bd-mega">Industries <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" style="{{chevron}}"><path d="M6 9l6 6 6-6"></path></svg></button>
+<a href="Work.dc.html" class="bd-nl" data-nav="Work" onMouseEnter="{{closeMega}}">Work</a>
+<a href="Services.dc.html" class="bd-nl" data-nav="Services" onMouseEnter="{{closeMega}}">Services</a>
+<a href="Process.dc.html" class="bd-nl" data-nav="Process" onMouseEnter="{{closeMega}}">Process</a>
+<a href="About.dc.html" class="bd-nl" data-nav="About" onMouseEnter="{{closeMega}}">About</a>
+<a href="Reviews.dc.html" class="bd-nl" data-nav="Reviews" onMouseEnter="{{closeMega}}">Reviews</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 6px">
+<a href="Audit.dc.html" class="bd-desk bd-cta">Free audit</a>
+<button type="button" class="bd-mbtn" onClick="{{openFull}}" aria-label="Open full menu"><span class="bd-hide-sm">Menu</span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M4 9h16M8 15h12"></path></svg></button>
+</div>
+</div>
+<sc-if value="{{mega}}" hint-placeholder-val="{{false}}">
+<div id="bd-mega" class="bd-mega">
+<div class="bd-mega-grid">
+<div class="bd-mega-col">
+<div class="bd-mono bd-mega-lab">Industries</div>
+<a class="bd-mega-ind" href="Construction.dc.html" onClick="{{closeMega}}"><span class="bd-fdot" style="background:#FF5A1F"></span><span>Construction &amp; trades</span><span class="bd-mono">8</span></a>
+<a class="bd-mega-ind" href="Work.dc.html" onClick="{{closeMega}}"><span class="bd-fdot" style="background:#8EA2FF"></span><span>Logistics &amp; transport</span><span class="bd-mono">4</span></a>
+<a class="bd-mega-ind" href="Work.dc.html" onClick="{{closeMega}}"><span class="bd-fdot" style="background:#19C7B0"></span><span>Cleaning &amp; sterilisation</span><span class="bd-mono">3</span></a>
+<a class="bd-mega-ind" href="Work.dc.html" onClick="{{closeMega}}"><span class="bd-fdot" style="background:#FF6FA5"></span><span>Hospitality &amp; rentals</span><span class="bd-mono">4</span></a>
+<a class="bd-mega-ind" href="Work.dc.html" onClick="{{closeMega}}"><span class="bd-fdot" style="background:#E8B931"></span><span>Professional services</span><span class="bd-mono">3</span></a>
+<a class="bd-mega-ind" href="Work.dc.html" onClick="{{closeMega}}"><span class="bd-fdot" style="background:#B49BFF"></span><span>Creative &amp; wellness</span><span class="bd-mono">3</span></a>
+</div>
+<div class="bd-mega-col">
+<div class="bd-mono bd-mega-lab">Services</div>
+<a class="bd-mega-svc" href="SvcWordPress.dc.html" onClick="{{closeMega}}"><span>WordPress &amp; Elementor websites</span><small>New sites and redesigns you can edit</small></a>
+<a class="bd-mega-svc" href="SvcCustom.dc.html" onClick="{{closeMega}}"><span>Custom WordPress development</span><small>Plugins, themes, booking and payments</small></a>
+<a class="bd-mega-svc" href="SvcSEO.dc.html" onClick="{{closeMega}}"><span>SEO audits &amp; fixes</span><small>Get found, in order of impact</small></a>
+<div class="bd-mega-pills"><a href="SvcApps.dc.html" onClick="{{closeMega}}">Web &amp; mobile apps</a><a href="SvcPlatforms.dc.html" onClick="{{closeMega}}">Shopify · Wix · Squarespace</a><a href="SvcBrand.dc.html" onClick="{{closeMega}}">Branding &amp; video</a></div>
+</div>
+<a class="bd-mega-feat" href="Case.dc.html#cdg-maui" onClick="{{closeMega}}">
+<div class="bd-mega-feat-img"><img src="/_blob/e37702657907eb0bc2e36a82f2212ce8" alt="CDG Maui construction website"></div>
+<div class="bd-mono" style="color: var(--muted)">Featured · Construction</div>
+<div class="bd-mega-feat-t">CDG Maui: a design-build site rooted in its community</div>
+<span style="font-size: 14px; color: var(--accent)">Read the case study →</span>
+</a>
+</div>
+<a class="bd-mega-strip" href="Audit.dc.html" onClick="{{closeMega}}"><span><img src="/_blob/dc5af924d95ea0c65e0bccbd61ccba59" alt="">Not sure where you fit? I'll audit your current site myself, free.</span><span style="color: var(--accent)">Start →</span></a>
+</div>
+</sc-if>
+<span id="bd-prog" class="bd-prog" aria-hidden="true"></span>
+</div>
+</header>
+
+<sc-if value="{{full}}" hint-placeholder-val="{{false}}">
+<div role="dialog" aria-modal="true" aria-label="Site menu" class="bd-full" style="position: fixed; inset: 0; z-index: 80; background: #0B0B0C; color: #EDE8DF; overflow-y: auto; display: flex; flex-direction: column">
+<div class="bd-pad" style="display: flex; justify-content: space-between; align-items: center; padding: 20px 28px">
+<span class="bd-logo"><span class="bd-logo-dot" aria-hidden="true"></span>Rakib Hasan</span>
+<button type="button" onClick="{{closeFull}}" aria-label="Close menu" class="bd-mbtn" style="background: #1C1B19; color: #EDE8DF">Close<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+</div>
+<div class="bd-pad bd-fsbody">
+<nav aria-label="Full menu" class="bd-fsnav">
+<sc-for list="{{fsItems}}" as="it" hint-placeholder-count="9">
+<a href="{{it.href}}" onClick="{{closeFull}}" onMouseEnter="{{it.enter}}" class="bd-fsa">
+<span class="bd-mono bd-fsa-n">{{it.n}}</span>
+<span class="bd-fsa-txt"><span class="bd-fs-link" style="{{it.style}}">{{it.label}}</span><span class="bd-mono bd-fsa-cap">{{it.cap}}</span></span>
+<span class="bd-fsa-arr" aria-hidden="true">↗</span>
+</a>
+</sc-for>
+</nav>
+<div class="bd-desk bd-fsside">
+<div style="aspect-ratio: 4 / 3; border-radius: 20px; overflow: hidden; background: #1A1A1A"><img src="{{fsImg}}" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div class="bd-mono" style="color: #8F8A82">{{fsCaption}}</div>
+</div>
+</div>
+<div class="bd-pad" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; padding: 22px 28px; border-top: 1px solid #22211F; font-size: 14px; color: #BDB7AD">
+<span>Available from December 2026 · Based in Bangladesh, working worldwide</span>
+<span style="display: flex; gap: 22px; flex-wrap: wrap"><a href="mailto:Support@rakibhasaan.com" style="color: #EDE8DF">Support@rakibhasaan.com</a><a href="https://fiverr.com/rakib_64/" style="color: #EDE8DF">Fiverr</a><a href="https://github.com/rakib6564/" style="color: #EDE8DF">GitHub</a></span>
+</div>
+</div>
+</sc-if>
+<!--SPLIT-->
+<footer data-theme="ink" class="bd-foot">
+<div class="bd-wrap">
+<div class="bd-foot-cta">
+<div>
+<div class="bd-mono bd-foot-k"><span class="bd-foot-live" style="{{chatDot}}"></span>{{chatStatus}} · {{dhaka}} in Dhaka</div>
+<h2 class="bd-foot-h">Have a project<br>in mind?</h2>
+</div>
+<div class="bd-foot-actions">
+<a class="bd-foot-start" href="Audit.dc.html"><span>Start with a free audit</span><span class="bd-foot-arr" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"></path></svg></span></a>
+<button type="button" class="bd-foot-copy" onClick="{{copyMail}}"><span class="bd-mono">{{mailLabel}}</span><span class="bd-foot-mailtxt">Support@rakibhasaan.com</span></button>
+</div>
+</div>
+<div class="bd-foot-grid">
+<div class="bd-foot-brand">
+<a class="bd-logo" href="Creative.dc.html"><span class="bd-logo-dot" aria-hidden="true"></span>Rakib Hasan</a>
+<p class="bd-foot-line">WordPress websites, custom plugins and SEO fixes for small businesses in the US and Europe. Based in Bangladesh, working worldwide.</p>
+<div class="bd-foot-badges"><span>★ 5.0 · 101 reviews</span><span>Fiverr Level 2</span><span>250+ sites · 14 countries</span></div>
+</div>
+<nav class="bd-foot-col" aria-label="Services"><span class="bd-mono">Services</span><a href="SvcWordPress.dc.html">WordPress websites</a><a href="SvcCustom.dc.html">Custom development</a><a href="SvcSEO.dc.html">SEO audits</a><a href="SvcApps.dc.html">Web &amp; mobile apps</a><a href="SvcPlatforms.dc.html">Shopify, Wix &amp; Squarespace</a><a href="SvcBrand.dc.html">Branding &amp; video</a></nav>
+<nav class="bd-foot-col" aria-label="Site"><span class="bd-mono">Site</span><a href="Work.dc.html">Work</a><a href="Construction.dc.html">Construction</a><a href="Process.dc.html">Process</a><a href="About.dc.html">About</a><a href="Reviews.dc.html">Reviews</a><a href="FAQ.dc.html">FAQ</a></nav>
+<nav class="bd-foot-col" aria-label="Contact"><span class="bd-mono">Contact</span><a href="Audit.dc.html">Free audit</a><a href="Contact.dc.html">Contact</a><a href="https://fiverr.com/rakib_64/">Fiverr</a><a href="https://github.com/rakib6564/">GitHub</a></nav>
+</div>
+<div class="bd-foot-sign bd-mono"><span>Designer + developer</span><span>Est. 2018 · Dhaka, Bangladesh</span><span>250+ sites · 14 countries</span></div>
+<div class="bd-foot-bot">
+<span>© 2026 Rakib Hasan</span>
+<span class="bd-foot-legal"><a href="#">Privacy policy</a><a href="#">Terms</a><button type="button" class="bd-foot-up" onClick="{{toTop}}" aria-label="Back to top"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"></path></svg></button></span>
+</div>
+</div>
+</footer>
+<!--SPLIT-->
+<sc-if value="{{chatVisible}}" hint-placeholder-val="{{false}}">
+<div class="bd-chat" id="bd-chat">
+<sc-if value="{{chatOpen}}" hint-placeholder-val="{{false}}">
+<div class="bd-chat-panel" role="dialog" aria-label="Message Rakib Hasan">
+<div class="bd-chat-head">
+<span class="bd-chat-av"><img src="/_blob/dc5af924d95ea0c65e0bccbd61ccba59" alt=""><span class="bd-chat-dot" style="{{chatDot}}"></span></span>
+<div style="flex: 1; min-width: 0"><div class="bd-chat-who">Rakib Hasan</div><div class="bd-chat-meta">{{chatStatus}} · {{dhaka}} in Dhaka</div></div>
+<button type="button" class="bd-chat-close" onClick="{{toggleChat}}" aria-label="Close chat"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+</div>
+<div class="bd-chat-body" aria-live="polite">
+<div class="bd-bub">Hi, I'm Rakib. Tell me a little about your website and what you'd like it to do. {{chatPromise}}</div>
+<div class="bd-chat-topics">
+<sc-for list="{{chatTopics}}" as="t" hint-placeholder-count="4"><button type="button" class="bd-chat-topic" aria-pressed="{{t.on}}" onClick="{{t.pick}}">{{t.label}}</button></sc-for>
+</div>
+<sc-if value="{{chatSent}}" hint-placeholder-val="{{false}}">
+<div class="bd-bub bd-bub-me">{{chatEcho}}</div>
+<div class="bd-typing" aria-hidden="true"><span></span><span></span><span></span></div>
+<div class="bd-bub bd-bub-late">Thanks, got it. I'll reply by email, usually within an hour. Meanwhile, a <a class="bd-ln" href="Audit.dc.html">free audit</a> gets you your top five fixes.</div>
+</sc-if>
+</div>
+<sc-if value="{{chatNotSent}}" hint-placeholder-val="{{true}}">
+<div class="bd-chat-form">
+<textarea rows="2" placeholder="Write your message…" aria-label="Your message" onInput="{{chatInput}}"></textarea>
+<div class="bd-chat-row"><input type="email" placeholder="Your email" aria-label="Your email" autocomplete="email" onInput="{{chatEmail}}"><button type="button" onClick="{{chatSend}}" aria-label="Send message"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></button></div>
+</div>
+</sc-if>
+</div>
+</sc-if>
+<div class="bd-chat-pill">
+<button type="button" class="bd-chat-av bd-chat-avbtn" onClick="{{toggleChat}}" aria-label="Message Rakib H."><img src="/_blob/dc5af924d95ea0c65e0bccbd61ccba59" alt=""><span class="bd-chat-dot" style="{{chatDot}}"></span></button>
+<div class="bd-chat-txt">
+<button type="button" class="bd-chat-name" onClick="{{toggleChat}}">Message Rakib H.</button>
+<div class="bd-chat-sub"><span class="bd-chat-line" id="bd-chat-line" data-status="{{chatStatus}}" data-time="{{dhaka}}">{{chatStatus}} · avg. reply 1 hour</span></div>
+</div>
+<button type="button" class="bd-chat-x" onClick="{{hideChat}}" aria-label="Hide message widget"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+</div>
+</div>
+</sc-if>
