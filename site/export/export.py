@@ -1,6 +1,6 @@
 # Turns the design pages (project/*.dc.html) into a plain static website in dist/.
 # Usage: python3 export.py [out_dir]
-import os, re, sys, json, shutil, html
+import os, re, sys, json, shutil, html, hashlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(HERE)
@@ -75,7 +75,12 @@ def main():
   for f in used: shutil.copy(os.path.join(IMAGES, f), os.path.join(OUT, 'assets', 'img', f))
   shutil.copy(os.path.join(HERE, 'dc-static.js'), os.path.join(OUT, 'assets', 'dc-static.js'))
   shutil.copy(os.path.join(HERE, 'lenis.min.js'), os.path.join(OUT, 'assets', 'lenis.min.js'))
-  open(os.path.join(OUT, '.htaccess'), 'w').write('DirectoryIndex index.html\nOptions -Indexes\nHeader set X-Robots-Tag "noindex, nofollow"\n<FilesMatch "\\.(jpg|jpeg|png|webp)$">\nHeader set Cache-Control "public, max-age=2592000"\n</FilesMatch>\n')
+  ver = hashlib.sha1(open(os.path.join(HERE, 'dc-static.js'), 'rb').read() + open(os.path.join(HERE, 'lenis.min.js'), 'rb').read()).hexdigest()[:10]
+  for b in PAGES.values():
+    fp = os.path.join(OUT, b); t = open(fp, encoding='utf-8').read()
+    t = t.replace('src="assets/dc-static.js"', 'src="assets/dc-static.js?v=' + ver + '"').replace('src="assets/lenis.min.js"', 'src="assets/lenis.min.js?v=' + ver + '"')
+    open(fp, 'w', encoding='utf-8').write(t)
+  open(os.path.join(OUT, '.htaccess'), 'w').write('<FilesMatch "\\.(html|js)$">\nHeader set Cache-Control "no-cache, must-revalidate"\n</FilesMatch>\n' + 'DirectoryIndex index.html\nOptions -Indexes\nHeader set X-Robots-Tag "noindex, nofollow"\n<FilesMatch "\\.(jpg|jpeg|png|webp)$">\nHeader set Cache-Control "public, max-age=2592000"\n</FilesMatch>\n')
   print('exported %d pages, %d images -> %s' % (len(PAGES), len(used), OUT))
 
 if __name__ == '__main__':

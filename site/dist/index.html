@@ -380,6 +380,9 @@ body{margin:0;background:#0B0B0C}
 /* ---------- mega menu: solid panel so the page doesn't show through ---------- */
 .bd-mega{background:var(--bg);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
 
+/* scrolled header: more solid so big text behind stays out of the way */
+.bd-scrolled .bd-shell,.bd-open .bd-shell{background:color-mix(in srgb,var(--bg) 95%,transparent)}
+
 /* ---------- Three rules (interactive) ---------- */
 .bd-rules-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px 32px;margin-bottom:40px}
 .bd-rules-lede{margin:0;max-width:420px;font-size:17px;line-height:1.55;font-weight:300;color:var(--muted)}
@@ -1007,6 +1010,7 @@ class Component extends DCLogic {
 
 
 
+
     // ---------- Worldwide live map: arcs draw in, auto tour, hover/focus tooltips, count-ups ----------
     all('.bd-world').forEach(function (sec) {
       var map = sec.querySelector('.bd-map');
@@ -1386,6 +1390,7 @@ class Component extends DCLogic {
     if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);
+    if (this._fraf) cancelAnimationFrame(this._fraf);
     this._off.forEach(function (fn) { fn(); });
     this._off = [];
   }
@@ -1533,8 +1538,8 @@ class Component extends DCLogic {
   }
 }
 </script>
-<script src="assets/dc-static.js"></script>
-<script src="assets/lenis.min.js"></script>
+<script src="assets/dc-static.js?v=ed323aef73"></script>
+<script src="assets/lenis.min.js?v=ed323aef73"></script>
 <script>(function(){if(!window.Lenis||matchMedia("(prefers-reduced-motion: reduce)").matches)return;var l=new Lenis({lerp:0.11,smoothWheel:true,anchors:true});window.__lenis=l;function f(t){l.raf(t);requestAnimationFrame(f)}requestAnimationFrame(f);})();</script>
 </body>
 </html>

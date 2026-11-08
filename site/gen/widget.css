@@ -195,3 +195,6 @@
 
 /* ---------- mega menu: solid panel so the page doesn't show through ---------- */
 .bd-mega{background:var(--bg);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+
+/* scrolled header: more solid so big text behind stays out of the way */
+.bd-scrolled .bd-shell,.bd-open .bd-shell{background:color-mix(in srgb,var(--bg) 95%,transparent)}

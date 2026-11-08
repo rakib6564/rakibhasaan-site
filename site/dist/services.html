@@ -1102,6 +1102,9 @@ textarea.bd-in{height:auto;min-height:56px;padding:10px 0;resize:vertical;line-h
 /* ---------- mega menu: solid panel so the page doesn't show through ---------- */
 .bd-mega{background:var(--bg);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
 
+/* scrolled header: more solid so big text behind stays out of the way */
+.bd-scrolled .bd-shell,.bd-open .bd-shell{background:color-mix(in srgb,var(--bg) 95%,transparent)}
+
 
 /* ---------- worldwide live map ---------- */
 @keyframes bd-pulse2{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--rc) 60%,transparent)}70%{box-shadow:0 0 0 8px transparent}100%{box-shadow:0 0 0 0 transparent}}
@@ -1908,8 +1911,8 @@ class Component extends DCLogic {
 }
 
 </script>
-<script src="assets/dc-static.js"></script>
-<script src="assets/lenis.min.js"></script>
+<script src="assets/dc-static.js?v=ed323aef73"></script>
+<script src="assets/lenis.min.js?v=ed323aef73"></script>
 <script>(function(){if(!window.Lenis||matchMedia("(prefers-reduced-motion: reduce)").matches)return;var l=new Lenis({lerp:0.11,smoothWheel:true,anchors:true});window.__lenis=l;function f(t){l.raf(t);requestAnimationFrame(f)}requestAnimationFrame(f);})();</script>
 </body>
 </html>
