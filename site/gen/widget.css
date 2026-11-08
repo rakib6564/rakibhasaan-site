@@ -192,3 +192,6 @@
 .bd-fsside{display:flex;flex-direction:column;gap:16px;min-width:0}
 @media (max-width: 1000px){.bd-fsbody{grid-template-columns:1fr}.bd-fsside{display:none}}
 @media (max-width: 640px){.bd-fsnav{grid-template-columns:1fr}.bd-fsa{padding:11px 0}.bd-fsa .bd-fs-link{font-size:30px}.bd-fsa-arr{display:none}}
+
+/* ---------- mega menu: solid panel so the page doesn't show through ---------- */
+.bd-mega{background:var(--bg);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}

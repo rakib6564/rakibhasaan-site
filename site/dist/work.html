@@ -720,6 +720,11 @@ textarea.bd-in{height:auto;min-height:56px;padding:10px 0;resize:vertical;line-h
 .bd-pcard p{max-width:44ch;font-size:15.5px;line-height:1.65}
 @media (max-width: 760px){.bd-pgrid{gap:56px}}
 
+/* ---------- work filters: floating pill bar ---------- */
+.bd-filters{display:flex;flex-wrap:nowrap;gap:4px;width:max-content;max-width:100%;box-sizing:border-box;margin:0 auto 52px;padding:6px;border:1px solid var(--line);border-radius:999px;background:color-mix(in srgb,var(--bg) 84%,transparent);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);box-shadow:0 18px 40px -24px rgba(0,0,0,.35);overflow-x:auto;scrollbar-width:none}
+.bd-filters .bd-filter{flex:none;height:38px;padding:0 14px;border-color:transparent;font-size:14px}
+@media (max-width: 760px){.bd-filters{width:auto;margin:0 0 32px;border-radius:999px}}
+
 /* ---------- products showcase ---------- */
 @keyframes bd-pr-lit{0%,100%{background:transparent;color:var(--muted);border-color:var(--line)}8%,22%{background:#FF5A1F;color:#0B0B0C;border-color:#FF5A1F}}
 @keyframes bd-pr-type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
@@ -1094,6 +1099,9 @@ textarea.bd-in{height:auto;min-height:56px;padding:10px 0;resize:vertical;line-h
 @media (max-width: 1000px){.bd-fsbody{grid-template-columns:1fr}.bd-fsside{display:none}}
 @media (max-width: 640px){.bd-fsnav{grid-template-columns:1fr}.bd-fsa{padding:11px 0}.bd-fsa .bd-fs-link{font-size:30px}.bd-fsa-arr{display:none}}
 
+/* ---------- mega menu: solid panel so the page doesn't show through ---------- */
+.bd-mega{background:var(--bg);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+
 
 /* ---------- worldwide live map ---------- */
 @keyframes bd-pulse2{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--rc) 60%,transparent)}70%{box-shadow:0 0 0 8px transparent}100%{box-shadow:0 0 0 0 transparent}}
@@ -1185,7 +1193,7 @@ textarea.bd-in{height:auto;min-height:56px;padding:10px 0;resize:vertical;line-h
 @media (prefers-reduced-motion: reduce){.bd-mk-ring,.bd-mk-radar,.bd-pkt{animation:none;display:none}.bd-arc{transition:none}}
 
 </style>
-<style>html,body{margin:0;background:#0B0B0C}</style>
+<style>html,body{margin:0;background:#0B0B0C}html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}.lenis.lenis-stopped{overflow:hidden}</style>
 </head>
 <body>
 <div id="dc-root"></div>
@@ -1905,5 +1913,7 @@ class Component extends DCLogic {
 
 </script>
 <script src="assets/dc-static.js"></script>
+<script src="assets/lenis.min.js"></script>
+<script>(function(){if(!window.Lenis||matchMedia("(prefers-reduced-motion: reduce)").matches)return;var l=new Lenis({lerp:0.11,smoothWheel:true,anchors:true});window.__lenis=l;function f(t){l.raf(t);requestAnimationFrame(f)}requestAnimationFrame(f);})();</script>
 </body>
 </html>

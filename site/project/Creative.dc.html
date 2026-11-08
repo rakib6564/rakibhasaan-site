@@ -379,6 +379,9 @@ body{margin:0;background:#0B0B0C}
 @media (max-width: 1000px){.bd-fsbody{grid-template-columns:1fr}.bd-fsside{display:none}}
 @media (max-width: 640px){.bd-fsnav{grid-template-columns:1fr}.bd-fsa{padding:11px 0}.bd-fsa .bd-fs-link{font-size:30px}.bd-fsa-arr{display:none}}
 
+/* ---------- mega menu: solid panel so the page doesn't show through ---------- */
+.bd-mega{background:var(--bg);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+
 /* ---------- Three rules (interactive) ---------- */
 .bd-rules-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px 32px;margin-bottom:40px}
 .bd-rules-lede{margin:0;max-width:420px;font-size:17px;line-height:1.55;font-weight:300;color:var(--muted)}
@@ -1000,6 +1003,7 @@ class Component extends DCLogic {
 
 
 
+
     // ---------- Worldwide live map: arcs draw in, auto tour, hover/focus tooltips, count-ups ----------
     all('.bd-world').forEach(function (sec) {
       var map = sec.querySelector('.bd-map');
@@ -1271,8 +1275,8 @@ class Component extends DCLogic {
       var dir = 1;
       if (m1 && m2 && !reduced) {
         var w1 = m1.scrollWidth / 2, w2 = m2.scrollWidth / 2;
-        off1 = (off1 + 0.5 + boost * 0.35) % (w1 || 1);
-        off2 = (off2 + 0.4 + boost * 0.3) % (w2 || 1);
+        off1 = (off1 + 1.1 + boost * 0.35) % (w1 || 1);
+        off2 = (off2 + 0.9 + boost * 0.3) % (w2 || 1);
         m1.style.transform = 'translate3d(' + (-off1).toFixed(1) + 'px,0,0)';
         m2.style.transform = 'translate3d(' + (off2 - w2).toFixed(1) + 'px,0,0)';
       }
@@ -1370,6 +1374,7 @@ class Component extends DCLogic {
     this._alive = false;
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._raf2) cancelAnimationFrame(this._raf2);
+    if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);

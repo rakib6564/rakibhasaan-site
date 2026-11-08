@@ -39,13 +39,15 @@ def convert(src):
 <meta name="robots" content="noindex, nofollow">
 <link rel="icon" href="data:image/svg+xml,%%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%%3E%%3Ccircle cx='16' cy='16' r='10' fill='%%23FF5A1F'/%%3E%%3C/svg%%3E">
 %s
-<style>html,body{margin:0;background:#0B0B0C}</style>
+<style>html,body{margin:0;background:#0B0B0C}html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}.lenis.lenis-stopped{overflow:hidden}</style>
 </head>
 <body>
 <div id="dc-root"></div>
 <template id="dc-tpl">%s</template>
 <script type="text/plain" id="dc-src" data-props='%s'>%s</script>
 <script src="assets/dc-static.js"></script>
+<script src="assets/lenis.min.js"></script>
+<script>(function(){if(!window.Lenis||matchMedia("(prefers-reduced-motion: reduce)").matches)return;var l=new Lenis({lerp:0.11,smoothWheel:true,anchors:true});window.__lenis=l;function f(t){l.raf(t);requestAnimationFrame(f)}requestAnimationFrame(f);})();</script>
 </body>
 </html>
 ''' % (title, helmet.strip(), body, props, code)
@@ -72,6 +74,7 @@ def main():
     open(os.path.join(OUT, b), 'w', encoding='utf-8').write(fix_refs(convert(src), used))
   for f in used: shutil.copy(os.path.join(IMAGES, f), os.path.join(OUT, 'assets', 'img', f))
   shutil.copy(os.path.join(HERE, 'dc-static.js'), os.path.join(OUT, 'assets', 'dc-static.js'))
+  shutil.copy(os.path.join(HERE, 'lenis.min.js'), os.path.join(OUT, 'assets', 'lenis.min.js'))
   open(os.path.join(OUT, '.htaccess'), 'w').write('DirectoryIndex index.html\nOptions -Indexes\nHeader set X-Robots-Tag "noindex, nofollow"\n<FilesMatch "\\.(jpg|jpeg|png|webp)$">\nHeader set Cache-Control "public, max-age=2592000"\n</FilesMatch>\n')
   print('exported %d pages, %d images -> %s' % (len(PAGES), len(used), OUT))
 
