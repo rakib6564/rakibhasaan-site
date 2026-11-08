@@ -176,7 +176,7 @@ body{margin:0;background:#0B0B0C}
 }
 @media (prefers-reduced-motion: reduce){.bd-mk-ring,.bd-mk-radar,.bd-pkt{animation:none;display:none}.bd-arc{transition:none}}
 /* shared-shell */
-.bd-wrap{max-width:1240px;margin:0 auto;padding:0 28px;box-sizing:border-box;width:100%}
+.bd-wrap{max-width:1440px;margin:0 auto;padding:0 28px;box-sizing:border-box;width:100%}
 .bd-nl[aria-current="page"]{opacity:1}
 .bd-nl[aria-current="page"]::after{content:'';position:absolute;left:50%;bottom:2px;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--accent)}
 .bd-ln{color:inherit;text-decoration:none;text-decoration-color:var(--accent);text-underline-offset:4px;text-decoration-thickness:1px}
@@ -572,7 +572,7 @@ body{margin:0;background:#0B0B0C}
 </div>
 </section>
 
-<section id="bd-manifesto" data-theme="bone" class="bd-pad" style="max-width: 1240px; margin: 0 auto; padding: 160px 28px 120px">
+<section id="bd-manifesto" data-theme="bone" class="bd-pad" style="max-width: 1440px; margin: 0 auto; padding: 160px 28px 120px">
 <div class="bd-mono" style="color: var(--muted); margin-bottom: 32px">01 — The idea</div>
 <p style="margin: 0; font-size: clamp(28px, 3.8vw, 56px); font-weight: 200; line-height: 1.12; letter-spacing: -0.035em">
 <sc-for list="{{words}}" as="w" hint-placeholder-count="40"><span data-w="1" style="{{w.style}}">{{w.t}} </span></sc-for>
@@ -629,7 +629,7 @@ body{margin:0;background:#0B0B0C}
 </div>
 </section>
 
-<section id="bd-process" data-theme="bone" class="bd-pad" style="max-width: 1240px; margin: 0 auto; padding: 130px 28px 110px; box-sizing: border-box">
+<section id="bd-process" data-theme="bone" class="bd-pad" style="max-width: 1440px; margin: 0 auto; padding: 130px 28px 110px; box-sizing: border-box">
 <div class="bd-rules-head">
 <div class="bd-mono" style="color: var(--muted)">04 — Three rules, every project</div>
 <p class="bd-rules-lede">Three habits that protect your business while your website changes.</p>
@@ -714,7 +714,7 @@ body{margin:0;background:#0B0B0C}
 </div>
 </section>
 
-<section id="bd-about" data-theme="ink" class="bd-pad" style="max-width: 1240px; margin: 0 auto; padding: 160px 28px 170px; box-sizing: border-box">
+<section id="bd-about" data-theme="ink" class="bd-pad" style="max-width: 1440px; margin: 0 auto; padding: 160px 28px 170px; box-sizing: border-box">
 <div class="bd-mono" style="color: var(--muted); margin-bottom: 56px">05 — Who you'll work with</div>
 <div class="bd-about">
 <div class="bd-ph-wrap" style="position: relative">
@@ -786,7 +786,7 @@ body{margin:0;background:#0B0B0C}
 </section>
 
 <section id="bd-audit" data-theme="ink" style="padding: 160px 0 110px">
-<div class="bd-pad" style="max-width: 1240px; box-sizing: border-box; margin: 0 auto; padding: 0 28px; display: flex; flex-direction: column; gap: 64px">
+<div class="bd-pad" style="max-width: 1440px; box-sizing: border-box; margin: 0 auto; padding: 0 28px; display: flex; flex-direction: column; gap: 64px">
 <h2 style="margin: 0; font-size: clamp(56px, 9vw, 156px); font-weight: 200; line-height: 0.92; letter-spacing: -0.06em">
 <span class="bd-line"><span data-up="1">Let's build</span></span>
 <span class="bd-line"><span data-up="1" style="color: var(--accent)">yours.</span></span>
@@ -996,6 +996,7 @@ class Component extends DCLogic {
       }, 80);
       this._off.push(function () { clearInterval(ruleT); });
     }
+
 
 
 
@@ -1378,6 +1379,7 @@ class Component extends DCLogic {
     this._alive = false;
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._raf2) cancelAnimationFrame(this._raf2);
+    if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);
     if (this._fraf) cancelAnimationFrame(this._fraf);

@@ -459,12 +459,12 @@ def hero(crumb, h1, intro_html, side=''):
   return '''<section id="bd-hero" data-theme="ink" class="bd-hero">
 <canvas id="bd-gl" aria-hidden="true"></canvas>
 <div class="bd-wrap bd-hero-in">
-<nav class="bd-mono bd-crumb" aria-label="Breadcrumb"><a href="Creative.dc.html">Home</a><span>/</span>%s</nav>
-<h1 class="bd-h1">%s</h1>
-<div class="bd-hero-row"><div class="bd-hero-intro">%s</div>%s</div>
+<div class="bd-hero-top bd-mono"><nav class="bd-crumb" aria-label="Breadcrumb"><a href="Creative.dc.html">Home</a><span>/</span>%s</nav><span class="bd-hero-avail">Available from December 2026</span></div>
+%s
 <div class="bd-hero-meta bd-mono"><span><b>5.0</b> from 101 reviews</span><span><b>250+</b> sites shipped</span><span><b>~1 hr</b> average reply</span><span class="bd-hide-sm"><b>14</b> countries</span></div>
 </div>
-</section>''' % (crumb, lines_html(h1), intro_html, side)
+</section>''' % (crumb, (('<div class="bd-hero-split"><div class="bd-hero-l"><h1 class="bd-h1">%s</h1><div class="bd-hero-intro">%s</div></div>%s</div>' % (lines_html(h1), intro_html, side)) if 'bd-hero-ph' in side else
+        ('<h1 class="bd-h1">%s</h1>\n<div class="bd-hero-row"><div class="bd-hero-intro">%s</div>%s</div>' % (lines_html(h1), intro_html, side))))
 
 FORM_FIELD = 'class="bd-in"'
 def audit_form(note):
