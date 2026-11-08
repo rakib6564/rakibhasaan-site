@@ -12,6 +12,7 @@ COPY = fill_copy(COPY)
 exec(open(os.path.join(BASE, 'world.py'), encoding='utf-8').read())
 exec(open(os.path.join(BASE, 'products.py'), encoding='utf-8').read())
 exec(open(os.path.join(BASE, 'reviews_grid.py'), encoding='utf-8').read())
+exec(open(os.path.join(BASE, 'imgq.py'), encoding='utf-8').read())
 FX_JS = open(os.path.join(BASE, 'fx_mount.js'), encoding='utf-8').read()
 BLOBS = json.load(open(os.path.join(NICHE, 'assets', 'blobs.json')))
 CREATIVE = open(os.path.join(PROJ, 'Creative.dc.html'), encoding='utf-8').read()
@@ -535,8 +536,8 @@ def build_generic(fname, start, crumb2):
       continue
     n += 1
     body.append(render_section(s, n, THEMES[(n - 1) % len(THEMES)], last))
-  if fname == 'Audit.dc.html':
-    pass
+  if fname in IMGQ_PAGES and body:
+    body.insert(len(body) - 1, imgq_html(cases))
   title = plain(spec.get('SEO title', h1))
   meta = plain(spec.get('Meta description', ''))
   return page(fname, title, meta, hero(crumb, h1, intro_html, side) + '\n' + '\n'.join(body), active=crumb2 and 'Services' or name)
@@ -839,7 +840,7 @@ def extract_gl():
   return CREATIVE[a:b]
 
 exec(open(os.path.join(BASE, 'case_page.py'), encoding='utf-8').read())
-PAGE_CSS = open(os.path.join(BASE, 'pages.css'), encoding='utf-8').read() + PRODUCTS_CSS + CASE_CSS + REV_CSS
+PAGE_CSS = open(os.path.join(BASE, 'pages.css'), encoding='utf-8').read() + PRODUCTS_CSS + CASE_CSS + REV_CSS + IMGQ_CSS
 WIDGET_CSS = open(os.path.join(BASE, 'widget.css'), encoding='utf-8').read()
 SHELL = open(os.path.join(BASE, 'shell.html'), encoding='utf-8').read()
 RUNTIME = open(os.path.join(BASE, 'runtime.js'), encoding='utf-8').read()
@@ -884,7 +885,7 @@ def page(fname, title, meta, body, active='', vals='', state='', mount=''):
 ''' % (html.escape(title), html.escape(meta, quote=True), extract_style(), PAGE_CSS, WIDGET_CSS, WORLD_CSS,
        header.replace('data-nav="%s"' % active, 'data-nav="%s" aria-current="page"' % active), body, footer, widget,
        RUNTIME.replace('/*PAGE_STATE*/', (state + ',') if state else '')
-              .replace('/*PAGE_MOUNT*/', mount + '\n' + WIDGET_MOUNT + WORLD_JS + REV_JS + FX_JS)
+              .replace('/*PAGE_MOUNT*/', mount + '\n' + WIDGET_MOUNT + WORLD_JS + REV_JS + IMGQ_JS + FX_JS)
               .replace('/*PAGE_VALS*/', vals)
               .replace('/*SHARED_VALS*/', SHARED_VALS)
               .replace('/*GL*/', extract_gl()))
